@@ -363,13 +363,13 @@ install_libbitcoin(){
             echo " --> Updating libbitcoin..."
             echo
             cd libbitcoin-git
-            git remote set-url origin https://github.com/libbitcoin/libbitcoin.git
+            git remote set-url origin https://github.com/Airbitz/libbitcoin.git
             git pull --rebase
 	else
             echo
             echo " --> Downloading libbitcoin from git..."
             echo
-            git clone https://github.com/libbitcoin/libbitcoin.git libbitcoin-git
+            git clone https://github.com/Airbitz/libbitcoin.git libbitcoin-git
 	fi
     fi
 
@@ -396,13 +396,13 @@ install_libwallet(){
             echo " --> Updating Libwallet..."
             echo
             cd libwallet-git
-            git remote set-url origin https://github.com/libbitcoin/libwallet.git
+            git remote set-url origin https://github.com/Airbitz/libwallet.git
             git pull --rebase
 	else
             echo
             echo " --> Downloading Libwallet from git..."
             echo
-            git clone https://github.com/libbitcoin/libwallet.git libwallet-git
+            git clone https://github.com/Airbitz/libwallet.git libwallet-git
 	fi
     fi
 
@@ -429,13 +429,13 @@ install_obelisk(){
             echo " --> Updating Obelisk..."
             echo
             cd obelisk-git
-            git remote set-url origin https://github.com/libbitcoin/obelisk.git
+            git remote set-url origin https://github.com/Airbitz/obelisk.git
             git pull --rebase
 	else
             echo
             echo " --> Downloading obelisk..."
             echo
-            git clone https://github.com/libbitcoin/obelisk.git obelisk-git
+            git clone https://github.com/Airbitz/obelisk.git obelisk-git
 	fi
     fi
 
@@ -463,13 +463,13 @@ install_sx(){
             echo " --> Updating SX..."
             echo
             cd sx-git
-            git remote set-url origin https://github.com/spesmilo/sx.git
+            git remote set-url origin https://github.com/Airbitz/sx.git
             git pull --rebase
 	else
             echo
             echo " --> Downloading SX from git..."
             echo
-            git clone https://github.com/spesmilo/sx.git sx-git
+            git clone https://github.com/Airbitz/sx.git sx-git
 	fi
     fi
 
